@@ -1,0 +1,18 @@
+{
+  "name": "encrig-server",
+  "version": "1.0.0",
+  "description": "encrig-server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sathnindu Kottage",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ethauth-server": "^0.0.1-beta1-core",
+    "express": "^4.18.1"
+  }
+}
