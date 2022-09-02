@@ -9,7 +9,7 @@ const etherAuth = require('ethauth-server');
 //CORS
 const cors = require("cors");
 const corsOptions = {
-    origin: "*",
+    origin: process.env.CORS_URL,
     credentials: true,
     optionSuccessStatus: 200,
 }
