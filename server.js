@@ -20,6 +20,9 @@ const bodyParser = require("express");
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+app.get('/start', (req, res) => {
+    res.send("start");
+})
 
 app.get('/get/:address', (req, res) => {
     let address = req.params.address;
